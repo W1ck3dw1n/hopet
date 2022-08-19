@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendar Cita</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+    <nav class="topnav">
+        <div class="logo-search">
+                <a href="./index.html">
+                    <img class="icon" src="./hopet-logo.png"> </img>
+                </a>Hopet
+            <div class="input-container">
+                    <input type="text" class="search" placeholder="Buscar en Hopet">
+            </div>
+
+        </div>
+
+
+    </nav>
+
+<main>
+
+    <div class="registration">
+
+        <div class="appointment-form">
+
+            <form id="title" method="post">
+                Nombre(s): <input type="text" name="name">
+                Apellido(s): <input type="text" name="surname">
+                Correo: <input type="email" name="mail" required>
+                Procedimiento solicitado: <br>
+                <select>
+                    <option value="Cirguía">Cirugía</option>
+                    <option value="Esterilización">Esterilización</option>
+                </select>
+                Fecha: <input type="date">
+                <input type="submit" value="Registrar cita">
+                <input type="reset">
+            </form>
+        </div>
+
+    </div>
+
+
+
+</main>
+    
+</body>
+</html>
